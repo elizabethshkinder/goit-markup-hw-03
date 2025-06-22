@@ -246,9 +246,17 @@ img {
   color: #434455;
 }
 
+/* TEAM SECTION */
+
 .our-team {
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+  width: 1440px;
+  height: 732px;
   background-color: #f4f4fd;
 }
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -260,7 +268,25 @@ img {
   color: #2e2f42;
 }
 
+.our-team-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
 .team-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
 }
 
