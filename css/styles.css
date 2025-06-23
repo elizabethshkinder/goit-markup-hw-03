@@ -250,7 +250,9 @@ img {
 
 .our-team {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-content: center;
   gap: 72px;
   width: 1440px;
   height: 732px;
@@ -258,36 +260,45 @@ img {
 }
 
 .our-team-title {
+  display: flex;
+  justify-content: center;
+  white-space: nowrap;
   font-weight: 700;
   font-size: 36px;
   /* line-height: 40px; */
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
 }
 
 .our-team-list {
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  align-items: center;
   gap: 24px;
+  height: max-content;
 }
 
 .team-card {
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-direction: column;
   gap: 32px;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+  /* padding: 0px 0px 32px 0px; */
   width: 264px;
   height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
+}
+
+.team-card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .team-card-name {
@@ -301,6 +312,7 @@ img {
 }
 
 .team-card-position {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   /* line-height: 24px; */
