@@ -46,13 +46,16 @@ img {
 
 /* HEADER SECTION */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
   padding: 0 156px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container-size {
@@ -140,9 +143,6 @@ img {
 /* HERO SECTION */
 
 .hero-container {
-}
-
-.hero {
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -201,9 +201,10 @@ img {
 
 /* ADVANTAGES SECTION */
 
-.advantages {
+.advantages-container {
   display: flex;
-  margin: 120px 156px;
+  padding: 120px 0;
+  margin: 0 156px;
   width: 1128px;
   height: 104px;
   background-color: #fff;
@@ -255,7 +256,7 @@ img {
 
 /* TEAM SECTION */
 
-.our-team {
+.team-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
