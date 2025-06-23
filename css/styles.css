@@ -66,12 +66,13 @@ img {
 }
 
 .logo {
-  display: flex;
+  display: inline-block;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   gap: 0px;
   margin-top: 24px 0;
+  margin-bottom: 16px;
   width: 115px;
   height: 24px;
   font-family: "Raleway", sans-serif;
@@ -253,7 +254,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  gap: 72px;
+  padding: 120px 0;
   width: 1440px;
   height: 732px;
   background-color: #f4f4fd;
@@ -263,6 +264,7 @@ img {
   display: flex;
   justify-content: center;
   white-space: nowrap;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   /* line-height: 40px; */
@@ -328,14 +330,13 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-content {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 72px;
-  margin: 120px 156px;
   width: 1128px;
   height: 1000px;
 }
@@ -344,6 +345,7 @@ img {
   display: flex;
   justify-content: center;
   white-space: nowrap;
+  margin-bottom: 72px;
   height: 40px;
   width: 218;
   font-weight: 700;
@@ -360,6 +362,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px 24px;
+  row-gap: 48px;
   justify-content: center;
   padding: 0;
   list-style: none;
@@ -378,7 +381,6 @@ img {
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -388,6 +390,7 @@ img {
 }
 
 .portfolio-list-item-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   /* line-height: 24px; */
@@ -397,6 +400,7 @@ img {
 }
 
 .portfolio-list-item-text {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   /* line-height: 24px; */
@@ -411,6 +415,7 @@ img {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 100px 0;
   width: 1440px;
   height: 312px;
   background-color: #2e2f42;
@@ -419,7 +424,7 @@ img {
 .footer-content {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  /* gap: 16px; */
   margin-left: 156px;
   max-width: 264px;
   height: 112px;
