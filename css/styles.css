@@ -339,8 +339,24 @@ img {
   color: #434455;
 }
 
+/* FOOTER SECTION */
+
 .page-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 1440px;
+  height: 312px;
   background-color: #2e2f42;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 156px;
+  max-width: 264px;
+  height: 112px;
 }
 
 .logo-accent-footer {
@@ -348,6 +364,7 @@ img {
 }
 
 .footer-text {
+  margin: 0;
   font-weight: 400;
   font-size: 16px;
   /* line-height: 24px; */
