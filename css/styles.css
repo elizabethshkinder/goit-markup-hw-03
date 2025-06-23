@@ -43,6 +43,18 @@ img {
   width: 1158px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* HEADER SECTION */
 
 .header {
@@ -182,7 +194,6 @@ img {
 
 .hero-btn-text {
   white-space: nowrap;
-  min-width: 120px;
   font-weight: 500;
   font-size: 16px;
   /* line-height: 24px; */
@@ -201,18 +212,6 @@ img {
 
 .advantages-content {
   display: flex;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 .advantages-list {
@@ -293,7 +292,7 @@ img {
 }
 
 .team-card-content {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .team-card-name {
@@ -420,9 +419,6 @@ img {
 
 .footer-logo {
   display: inline-block;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
   margin-bottom: 16px;
   width: 115px;
   height: 24px;
