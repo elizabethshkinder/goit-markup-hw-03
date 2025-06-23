@@ -37,34 +37,25 @@ address {
 img {
   display: block;
 }
-
 .container {
-  width: 1440px;
-  height: 3300px;
-  background-color: #fff;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 1158px;
 }
 
 /* HEADER SECTION */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  background-color: #fff;
 }
 
-.header-container {
+.header-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
-  padding: 0 156px;
-}
-
-.header-container-size {
-  margin: 0 auto;
-  padding: 0 15px;
-  border-bottom: 1px solid #e7e9fc;
-  width: 1158px;
   height: 72px;
-  background-color: #fff;
 }
 
 .header-nav {
@@ -120,7 +111,7 @@ img {
   color: #404bbf;
 }
 
-.contacts-list {
+.contacts .contacts-list {
   display: flex;
   flex-direction: row;
   gap: 40px;
@@ -142,17 +133,18 @@ img {
 
 /* HERO SECTION */
 
-.hero-container {
+.hero {
+  height: 100vh;
+  padding: 188px 0;
+  background-color: #2e2f42;
+}
+
+.hero-content {
   display: flex;
   flex-direction: column;
   gap: 48px;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 188px 0;
-  width: 1440px;
-  height: 600px;
-  background-color: #2e2f42;
 }
 
 .hero-title {
@@ -201,13 +193,14 @@ img {
 
 /* ADVANTAGES SECTION */
 
-.advantages-container {
-  display: flex;
+.advantages {
   padding: 120px 0;
   margin: 0 156px;
-  width: 1128px;
-  height: 104px;
   background-color: #fff;
+}
+
+.advantages-content {
+  display: flex;
 }
 
 .visually-hidden {
@@ -257,15 +250,16 @@ img {
 
 /* TEAM SECTION */
 
-.team-container {
+.our-team {
+  padding: 120px 0;
+  background-color: #f4f4fd;
+}
+
+.team-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  padding: 120px 0;
-  width: 1440px;
-  height: 732px;
-  background-color: #f4f4fd;
 }
 
 .our-team-title {
@@ -290,23 +284,16 @@ img {
 }
 
 .team-card {
-  display: flex;
   flex-direction: column;
-  gap: 32px;
   border-radius: 0 0 4px 4px;
-  padding: 32px 0;
   width: calc((100% - 72px) / 4);
-  width: 264px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
 }
 
 .team-card-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  padding: 32px 16px;
 }
 
 .team-card-name {
@@ -344,8 +331,6 @@ img {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 1128px;
-  height: 1000px;
 }
 
 .portfolio-title {
@@ -423,18 +408,14 @@ img {
   justify-content: flex-start;
   align-items: center;
   padding: 100px 0;
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
-  /* gap: 16px; */
   margin-left: 156px;
   max-width: 264px;
-  height: 112px;
 }
 
 .footer-logo {
